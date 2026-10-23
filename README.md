@@ -39,7 +39,7 @@ Highly repetitive work with no room to improve the method (e.g. only reports or 
 
 ## Task 1 — Find the traders in trouble
 
-Code: [`task1_traders.ipynb`](task1_traders.ipynb) runs top to bottom. It uses [`load.py`](load.py) (loads the data and assigns each fill to its CME session) and [`pnl.py`](pnl.py) (P&L per account and session), and reads the data from [`dataset/`](dataset/).
+Code: [`task1_traders.ipynb`](task1_traders.ipynb) runs top to bottom. It uses [`load.py`](load.py) (loads the data and assigns each fill to its CME session) and [`pnl.py`](pnl.py) (P&L per account and session), and reads the data from [`dataset/`](dataset/). How the tables relate is in [`table_diagram.md`](table_diagram.md).
 
 To run it (Python 3.11+, from the repo root):
 
