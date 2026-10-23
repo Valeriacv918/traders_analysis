@@ -1,6 +1,6 @@
 # traders_analysis
 
-**Time spent:** ~2 hours
+**Time spent:** 2 h 9 min
 **LLM use:** I used Claude (Claude Code) throughout. I started by using it to understand the problem: general trading background, the concepts in the data (contract sizes and point values, CME sessions, commissions, open positions) and how the tables relate to each other. Then I worked through the tasks making the decisions myself: what "unusually bad" means, which signals to use, the scoring rules and thresholds, who to exclude or list separately, and the label and metric for Task 2. I asked Claude for ideas along the way and chose among them. Claude wrote all of the code (loader, P&L, notebook, backtest) and drafted the README text from my decisions.
 
 ## Background
